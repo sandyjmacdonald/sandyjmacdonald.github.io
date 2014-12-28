@@ -10,7 +10,7 @@ relative_permalinks: true
 
 # Setup
 title:               Stuff & Nonsense
-tagline:             'Bits of Python, bioinformatics and such...'
+tagline:             'Bits of Python, bioinformatics and such from <a href="https://twitter.com/sandyjmacdonald" target="_blank">@sandyjmacdonald</a>'
 description:         'Bits of Python, bioinformatics and such from <a href="https://twitter.com/sandyjmacdonald" target="_blank">@sandyjmacdonald</a>.'
 url:                 http://sandyjmacdonald.github.io
 baseurl:             /

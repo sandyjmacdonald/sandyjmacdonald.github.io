@@ -9,7 +9,7 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Piffle & Balderdash
+title:               Stuff & Nonsense
 tagline:             'Bits of Python, bioinformatics and such...'
 description:         'Bits of Python, bioinformatics and such from <a href="https://twitter.com/sandyjmacdonald" target="_blank">@sandyjmacdonald</a>.'
 url:                 http://sandyjmacdonald.github.io

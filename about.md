@@ -3,28 +3,19 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I'm a scientist - a microbiologist by trade - now working as a bioinformatician at the University of York.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+In the past, I've studied for a PhD looking at iron acquisition and its role in the virulence of *Pasteurella multocida* causing pneumonia in cattle at the Moredun Research Institute. I've also worked as a postdoc, building metabolic models of the nutritional symbiosis between aphids and their bacterial symbionts *Buchnera*.
 
-There are currently two themes built on Poole:
+Now, I work as a bioinformatician as part of the Centre for Chronic Diseases and Disorders at the University of York, contributing to a range of projects from cancer to parasitic infections to ancient dental pathogens.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+In my spare time, I enjoy tinkering with electronics, especially the Raspberry Pi, photography and reading graphic novels.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+You can find me in these places:
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+[Twitter](https://twitter.com/sandyjmacdonald)
+[Facebook](https://www.facebook.com/sandyjmacdonald)
+[LinkedIn](https://www.linkedin.com/in/sandyjmacdonald)
+[GitHub](https://github.com/sandyjmacdonald)
+[Instagram](https://instagram.com/sandyjmacdonald/)
+[Flickr](https://www.flickr.com/photos/sandyjmacdonald/)

@@ -13,14 +13,9 @@ In my spare time, I enjoy tinkering with electronics, especially the Raspberry P
 
 You can find me in these places:
 
-[Twitter](https://twitter.com/sandyjmacdonald)
-
-[Facebook](https://www.facebook.com/sandyjmacdonald)
-
-[LinkedIn](https://www.linkedin.com/in/sandyjmacdonald)
-
-[GitHub](https://github.com/sandyjmacdonald)
-
-[Instagram](https://instagram.com/sandyjmacdonald/)
-
+[Twitter](https://twitter.com/sandyjmacdonald)  
+[Facebook](https://www.facebook.com/sandyjmacdonald)  
+[LinkedIn](https://www.linkedin.com/in/sandyjmacdonald)  
+[GitHub](https://github.com/sandyjmacdonald)  
+[Instagram](https://instagram.com/sandyjmacdonald/)  
 [Flickr](https://www.flickr.com/photos/sandyjmacdonald/)

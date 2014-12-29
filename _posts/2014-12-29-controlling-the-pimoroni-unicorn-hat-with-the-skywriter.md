@@ -103,7 +103,7 @@ breakout pins on the BHH with the Unicorn HAT on. The Unicorn HAT uses just
 the 5V pin (2 or 4), ground pin (6, 9, 14, 20, 25, 30, 34 or 39) and GPIO
 pin 18 (12).
 
-I'ved used pins 2, 6 and 12.
+I've used pins 2, 6 and 12.
 
 You'll see how mine is connected up in the image below.
 

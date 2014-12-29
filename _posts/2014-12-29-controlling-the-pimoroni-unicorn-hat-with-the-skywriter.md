@@ -103,6 +103,10 @@ breakout pins on the BHH with the Unicorn HAT on. The Unicorn HAT uses just
 the 5V pin (2 or 4), ground pin (6, 9, 14, 20, 25, 30, 34 or 39) and GPIO
 pin 18 (12).
 
+EDIT: If you don't have the Black HAT Hack3rs (you totally should) then you 
+could just plug the jumper wires straight into the HATs, or you could mount 
+them in breadboards using some male headers.
+
 I've used pins 2, 6 and 12.
 
 You'll see how mine is connected up in the image below.
@@ -153,7 +157,7 @@ and off:
 {% highlight python %}
 while True:
 	x0, y0 = 3.5, 3.5
-	for z in range(1,5)[::-1] + range(1,10):
+	for z in range(1, 5)[::-1] + range(1, 10):
 		fwhm = 5/z
 		gauss = make_gaussian(fwhm, x0, y0)
 		for y in range(8):
@@ -162,9 +166,9 @@ while True:
 				s = 0.8
 				v = gauss[x,y]
 				rgb = colorsys.hsv_to_rgb(h, s, v)
-				r = int(rgb[0]*255.0)
-				g = int(rgb[1]*255.0)
-				b = int(rgb[2]*255.0)
+				r = int(rgb[0] * 255.0)
+				g = int(rgb[1] * 255.0)
+				b = int(rgb[2] * 255.0)
 				unicorn.set_pixel(x, y, r, g, b)
 		unicorn.show()
 		time.sleep(0.0005)
@@ -203,11 +207,11 @@ def spot(x, y, z):
         for j in range(8):
                 for i in range(8):
                         s = 0.8
-                        v = gauss[i,j]
+                        v = gauss[i, j]
                         rgb = colorsys.hsv_to_rgb(h, s, v)
-                        r = int(rgb[0]*255.0)
-                        g = int(rgb[1]*255.0)
-                        b = int(rgb[2]*255.0)
+                        r = int(rgb[0] * 255.0)
+                        g = int(rgb[1] * 255.0)
+                        b = int(rgb[2] * 255.0)
                         unicorn.set_pixel(i, j, r, g, b)
         unicorn.show()
         time.sleep(0.0005)

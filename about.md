@@ -3,13 +3,25 @@ layout: page
 title: About
 ---
 
-I'm a scientist - a microbiologist by trade - now working as a bioinformatician at the University of York.
+I'm a scientist - a microbiologist by trade - now working as a bioinformatician
+at the University of York.
 
-In the past, I've studied for a PhD looking at iron acquisition and its role in the virulence of *Pasteurella multocida* causing pneumonia in cattle at the Moredun Research Institute. I've also worked as a postdoc, building metabolic models of the nutritional symbiosis between aphids and their bacterial symbionts *Buchnera*.
+In the past, I've studied for a PhD looking at iron acquisition and its role in
+the virulence of *Pasteurella multocida* causing pneumonia in cattle at the 
+Moredun Research Institute. I've also worked as a postdoc, building metabolic 
+models of the nutritional symbiosis between aphids and their bacterial 
+symbionts *Buchnera*.
 
-Now, I work as a bioinformatician as part of the Centre for Chronic Diseases and Disorders at the University of York, contributing to a range of projects from cancer to parasitic infections to ancient dental pathogens.
+Now, I work as a bioinformatician as part of the Centre for Chronic Diseases 
+and Disorders at the University of York, contributing to a range of projects 
+from cancer to parasitic infections to ancient dental pathogens.
 
-In my spare time, I enjoy tinkering with electronics, especially the Raspberry Pi, photography and reading graphic novels.
+In my spare time, I enjoy tinkering with electronics, especially the Raspberry 
+Pi, photography and reading graphic novels.
+
+This site uses [Jekyll](http://jekyllrb.com), [GitHub Pages]
+(https://pages.github.com) and the [Lanyon](https://github.com/poole/lanyon) 
+theme from [Mark Otto](https://github.com/mdo).  
 
 You can find me in these places:
 

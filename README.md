@@ -1,4 +1,4 @@
-# Piffle & Balderdash
+# Stuff & Nonsense
 
 Bits of Python, bioinformatics and such...
 

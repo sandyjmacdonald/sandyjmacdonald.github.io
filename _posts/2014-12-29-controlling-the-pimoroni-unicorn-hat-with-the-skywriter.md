@@ -28,7 +28,7 @@ When Pimoroni brought out their 8x8 neopixel LED matrix, the [Unicorn
 HAT](http://shop.pimoroni.com/products/unicorn-hat), I hacked together a short 
 Python script that would blink a spot on and off, and then when they brought 
 out their 3D gesture-sensing addon, the [Skywriter HAT]
-(http://shop.pimoroni.com/products/skywriter-hat), it occured to me that I 
+(http://shop.pimoroni.com/products/skywriter-hat), it occurred to me that I 
 could use it to control the Unicorn HAT. The only problem being, how could I 
 connect both HATs at the same time? Enter the Black HAT Hack3r.
 

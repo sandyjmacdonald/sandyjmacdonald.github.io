@@ -234,7 +234,7 @@ unicorn.rotation(270)
 
 You can download and run the script as follows:
 
-{% highlight python %}
+{% highlight bash %}
 git clone https://gist.github.com/db8d493085b39727d3b1.git
 sudo python unicorn_skywriter.py
 {% endhighlight %}

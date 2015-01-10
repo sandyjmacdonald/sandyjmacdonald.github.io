@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using the Pimoroni Unicorn HAT and Skywriter as a colour palette
-tags: ["raspberry pi","python","pimoroni","skywriter", "unicorn hat", "black hat hack3r" tutorial"]
+tags: ["raspberry pi","python","pimoroni","skywriter","unicorn hat","black hat hack3r","tutorial"]
 ---
 
 In my [last post]

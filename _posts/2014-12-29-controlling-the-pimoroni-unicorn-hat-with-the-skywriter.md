@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Controlling the Pimoroni Unicorn HAT with the Skywriter
-tags: ["raspberry pi","python","pimoroni","skywriter", "unicorn hat", "black hat hack3r" tutorial"]
+tags: ["raspberry pi","python","pimoroni","skywriter","unicorn hat","black hat hack3r","tutorial"]
 ---
 
 A few days ago, I tweeted a [Vine clip](https://vine.co/v/OXVehbD6T6q) 

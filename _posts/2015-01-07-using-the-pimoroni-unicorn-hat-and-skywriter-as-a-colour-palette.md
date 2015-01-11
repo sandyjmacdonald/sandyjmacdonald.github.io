@@ -4,8 +4,8 @@ title: Using the Pimoroni Unicorn HAT and Skywriter as a colour palette
 tags: ["raspberry pi","python","pimoroni","skywriter","unicorn hat","black hat hack3r","tutorial"]
 ---
 
-In my [last post]
-({{ site.url }}/2014/12/29/controlling-the-pimoroni-unicorn-hat-with-the-skywriter/), 
+In my 
+[last post]({{ site.url }}/2014/12/29/controlling-the-pimoroni-unicorn-hat-with-the-skywriter/), 
 I showed you that you could use the Pimoroni Unicorn HAT LED matrix along
 with their Skywriter 3D gesture-sensing HAT to move around an LED spot. 
 
@@ -18,8 +18,8 @@ Here it is in action.
 
 ## Setting it up
 
-The best thing is to work through my [last post]
-({{ site.url }}/2014/12/29/controlling-the-pimoroni-unicorn-hat-with-the-skywriter/)
+The best thing is to work through my 
+[last post]({{ site.url }}/2014/12/29/controlling-the-pimoroni-unicorn-hat-with-the-skywriter/)
 to get all of the software installed and everything connected up. Then, it's 
 just a case of reading the sections below and downloading the script and away
 you go. If you don't have the time to wade through it, I'll give you a quick 
@@ -48,8 +48,8 @@ other, connect the BHH with the Skywriter to your Pi with a 40 pin ribbon
 cable and then connect the other BHH with the Unicorn HAT to the first using 
 the jumper wires and pins 2, 6 and 12.
 
-As I said, check the [previous post]
-({{ site.url }}/2014/12/29/controlling-the-pimoroni-unicorn-hat-with-the-skywriter/)
+As I said, check the 
+[previous post]({{ site.url }}/2014/12/29/controlling-the-pimoroni-unicorn-hat-with-the-skywriter/)
 for more details.
 
 ## Python decorators FTW

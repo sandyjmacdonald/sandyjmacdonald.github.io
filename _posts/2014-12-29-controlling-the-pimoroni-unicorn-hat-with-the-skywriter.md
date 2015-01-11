@@ -25,13 +25,13 @@ really nailed every detail of them, from the gorgeous matte black PCBs down
 to the product names, the typography and images on the PCBs and the libraries
 they provide on GitHub to control the HATs.
 
-When Pimoroni brought out their 8x8 neopixel LED matrix, the [Unicorn 
-HAT](http://shop.pimoroni.com/products/unicorn-hat), I hacked together a short 
-Python script that would blink a spot on and off, and then when they brought 
-out their 3D gesture-sensing addon, the [Skywriter HAT]
-(http://shop.pimoroni.com/products/skywriter-hat), it occurred to me that I 
-could use it to control the Unicorn HAT. The only problem being, how could I 
-connect both HATs at the same time? Enter the Black HAT Hack3r.
+When Pimoroni brought out their 8x8 neopixel LED matrix, the 
+[Unicorn HAT](http://shop.pimoroni.com/products/unicorn-hat)
+, I hacked together a short Python script that would blink a spot on and off, 
+and then when they brought out their 3D gesture-sensing addon, the 
+[Skywriter HAT](http://shop.pimoroni.com/products/skywriter-hat), it occurred 
+to me that I could use it to control the Unicorn HAT. The only problem being, 
+how could I connect both HATs at the same time? Enter the Black HAT Hack3r.
 
 The [Black HAT Hack3r](http://shop.pimoroni.com/products/black-hat-hacker) 
 is another Pimoroni product that allows you to mount a HAT separately to your 

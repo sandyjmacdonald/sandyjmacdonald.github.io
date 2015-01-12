@@ -456,8 +456,8 @@ a.pagination-item:hover {
 }
 
 .header-link {
-  position: absolute;
-  left: 14rem;
+  position: relative;
+  left: -1rem;
   opacity: 0;
 
   -webkit-transition: opacity 0.2s ease-in-out 0.1s;

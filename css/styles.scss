@@ -33,6 +33,7 @@
  * Pagination
  * Reverse layout
  * Themes
+ * Footer
  */
 
 /*
@@ -516,7 +517,7 @@ a.sidebar-nav-item {
 }
 
 .sidebar .social-icons a {
-  padding-right: 0.75em;
+  padding-right: 0.65em;
   color: #c0c0c0;
   &:hover {
     text-decoration: none;
@@ -624,6 +625,14 @@ a.sidebar-nav-item {
         color: inherit;
       }
     }
+  }
+}
+
+.social-icons a {
+  padding-right: 0.65em;
+  color: #000;
+  &:hover {
+    text-decoration: none;
   }
 }
 

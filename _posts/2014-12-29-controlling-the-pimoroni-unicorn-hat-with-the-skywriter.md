@@ -140,8 +140,7 @@ def make_gaussian(fwhm, x0, y0):
 	x = np.arange(0, 8, 1, float)
 	y = x[:, np.newaxis]
 	fwhm = fwhm
-	gauss = np.exp(-4 * np.log(2) * ((x - x0) ** 2 + (y - y0) ** 2) \
-			/ fwhm ** 2)
+	gauss = np.exp(-4 * np.log(2) * ((x - x0) ** 2 + (y - y0) ** 2) / fwhm ** 2)
 	return gauss
 {% endhighlight %}
 

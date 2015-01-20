@@ -65,7 +65,7 @@ unicorn.brightness(0.5)
 {% endhighlight %}
 
 Our function to calculate the brightness values is pretty simple. It takes the
-`x` and `y coordinates of each LED and uses the `math.sin()`and `math.cos()` 
+`x` and `y` coordinates of each LED and uses the `math.sin()` and `math.cos()` 
 functions from the math library to give us a value for the brightness. 
 
 As you'll see from the graph of the cos(x) + sin(y) function above, the limits 

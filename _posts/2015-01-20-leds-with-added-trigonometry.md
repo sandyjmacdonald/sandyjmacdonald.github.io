@@ -7,7 +7,7 @@ tags: ["raspberry pi","python","pimoroni","unicorn hat","tutorial"]
 Here's a quick tutorial on how to create some pretty patterns with the Pimoroni
 Unicorn HAT (or inferior LED matrix of your choice) and your Raspberry Pi.
 
-{% include embed_video.html param="http://www.youtube.com/embed/Sh3SK6l0LAw" %}
+{% include embed_video.html param="http://www.youtube.com/embed/ljut4QgG-dQ" %}
 
 You probably remember trigonometry from school, when you used it to calculate 
 the angles inside a triangle. Well, it turns out that if you use trigonometric

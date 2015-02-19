@@ -7,12 +7,12 @@ tags: ["pimoroni","flotilla","slice","picade","propeller hat","explorer hat","fr
 A couple of weeks ago, on a frosty Wednesday morning, I got the train down to
 Sheffield to visit [Pimoroni](http://shop.pimoroni.com). Jon, the director of 
 Pimoroni, had invited me to have a chat with them about upcoming products and 
-bout a new learning portal that they're planning to launch soon. I also got to 
+about a new learning portal that they're planning to launch soon. I also got to 
 have a look around their factory floor and see how the well-oiled Pimoroni machine 
 operates.
 
 Pimoroni is located about 10 minutes walk away from the station, on a small
-estate with a couple of other warehouses. As soon as I saw the laser-cut sign
+estate. As soon as I saw the laser-cut sign
 with the Pimoroni logo on the fence, I knew I was at the right place. A sign
 on the door reads *"Pirates and ninjas and lasers and shit"*. Definitely the
 right place.
@@ -20,12 +20,13 @@ right place.
 ## Electronics treasure trove
 
 Jon shares an office with Paul -- the other founder of Pimoroni -- and Phil, 
-their software engineer. The office is like an electronics treasure trove with
+a software engineer. The office is like an electronics treasure trove with
 boxes full of the new Raspberry Pi 2 (it had just launched on the Monday before
 my visit), prototypes of upcoming Raspberry Pi HATs (more on these later) 
 complete with blinking LEDs, and a Lego Technic model on the window ledge. A 
 window in the office looks out onto the factory floor with their laser-cutters,
-pick-and-place machine, reflow oven and stock for their online shop. It's an
+pick-and-place machine, robot lab (where they factory test their products) 
+and stock for their online shop. It's an
 impressive setup for a company that started out just a couple of years ago 
 making perspex cases for the Raspberry Pi, in what Jon tells me amounted to a
 garage, and now they're designing and making their own PCBs in their own
@@ -59,7 +60,7 @@ portal. The portal would have interesting and fun projects that you can get up
 and running fairly quickly, written by selected contributors and curated by
 Pimoroni.
 
-From my point of view, it would help the contributors to get their 
+From my point of view, it would help the contributors, like me, to get their 
 content seen by a larger audience and, for Pimoroni, I guess it would show
 customers cool ways to use their products.
 
@@ -72,9 +73,9 @@ launches.
 In case you missed it, Flotilla is Pimoroni's latest Kickstarter project. It's 
 a collection of modules that plug into a central dock via custom made USB 
 cables, or ropes as Pimoroni calls them. The dock connects to the Raspberry Pi
-(in fact, you can connect up to four docks into one Raspberry Pi) and deals 
+(in fact, you can connect up to four docks to one Raspberry Pi) and deals 
 with all of the IO from the modules. There are inputs -- a range of sensors, 
-dials, switches -- and outputs -- LED displays, motors and more -- that you can
+dials, switches -- and outputs -- LED displays, motors, and more -- that you can
 link together through the dock to do cool stuff.
 
 ![Flotilla]({{ site.url }}/assets/flotilla.png)
@@ -89,7 +90,7 @@ micro USB connectors.
 I was given a demo of Flotilla working with the custom-designed web app, 
 Rockpool (image below), that allows you to chain together inputs and link them to outputs,
 even including basic logic. In a few seconds, we had created a simple setup 
-where an LED lit up if both a button was toggled and the slider was moved. It 
+where an LED lit up if both a button was toggled and the slider was moved. Flotilla 
 was impressively complete given that, at that stage, the Kickstarter funding 
 hadn't yet finished.
 
@@ -137,7 +138,7 @@ the edges. The meat in the Propeller HAT/Raspberry Pi sandwich is the Python
 library and IDE which allow you to compile and upload code to the Propeller. Phil
 gave me a demo of the Propeller HAT playing some (extremely loud) SID tunes, 
 full of synth-y polyphonic goodness. The beauty of Propeller HAT is the ability
-to simultaneously control a huge number of IO pins (28) at once.
+to simultaneously control a bunch number of IO pins (28) at once.
 
 I've often yearned for a tiny piano or synth controller that I could fit in
 my pocket. Soon my yearning will be no longer. Framboisedorf (I think I got

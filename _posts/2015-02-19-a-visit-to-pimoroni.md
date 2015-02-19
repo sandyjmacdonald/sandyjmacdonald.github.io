@@ -87,7 +87,7 @@ link the modules to the dock custom made with little anchors printed on the
 micro USB connectors. 
 
 I was given a demo of Flotilla working with the custom-designed web app, 
-Rockpool, that allows you to chain together inputs and link them to outputs,
+Rockpool (image below), that allows you to chain together inputs and link them to outputs,
 even including basic logic. In a few seconds, we had created a simple setup 
 where an LED lit up if both a button was toggled and the slider was moved. It 
 was impressively complete given that, at that stage, the Kickstarter funding 

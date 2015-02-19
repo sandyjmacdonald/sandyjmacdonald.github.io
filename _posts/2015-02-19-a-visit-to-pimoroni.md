@@ -169,4 +169,6 @@ millionaire's shortbread. Again, I'd highly recommend it.
 
 And last, but not least, stay tuned for some more tutorials...
 
+*Flotilla images courtesy of Pimoroni.*
+
 {% include twitter_plug.html %}

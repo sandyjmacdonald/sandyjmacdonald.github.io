@@ -29,12 +29,12 @@ As always, do a `sudo apt-get update` and `sudo apt-get upgrade` to get
 everything up-to-date on your Raspberry Pi.
 
 You can get my `trig.py` script from 
-[my fork](https://github.com/sandyjmacdonald/UnicornHat) 
+[my fork](https://github.com/sandyjmacdonald/unicorn-hat) 
 of Pimoroni's Unicorn HAT library as follows:
 
 {% highlight bash %}
-git clone https://github.com/sandyjmacdonald/UnicornHat.git
-cd UnicornHat/python/examples
+git clone https://github.com/sandyjmacdonald/unicorn-hat.git
+cd unicorn-hat)/python/examples
 sudo python trig.py
 {% endhighlight %}
 

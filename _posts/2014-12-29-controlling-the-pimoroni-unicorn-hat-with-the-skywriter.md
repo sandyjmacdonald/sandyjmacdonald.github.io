@@ -61,9 +61,9 @@ HAT. There are various ways to do this.
 For the Unicorn HAT you can either:  
 `sudo pip install unicornhat`  
 **or**  
-`git clone https://github.com/pimoroni/UnicornHat.git`  
+`git clone https://github.com/pimoroni/unicorn-hat.git`  
 and then  
-`cd UnicornHat/python/UnicornHat`  
+`cd unicorn-hat/python/UnicornHat`  
 and  
 `sudo python setup.py install`  
 **or**  

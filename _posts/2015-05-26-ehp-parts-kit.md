@@ -40,7 +40,7 @@ And here's a list of everything that comes in it.
 
 # PIN entry system
 
-A few weeks back, I published a [tutorial](http://sandyjmacdonald.github.io/2015/04/30/pin-entry-system/) 
+A few weeks back, I published a [tutorial](http://learn.pimoroni.com/tutorial/sandyj/explorer-hat-explorer-hat-pin-entry) 
 on how to set up a fun little PIN entry system with some of the bits from the
 parts kit.
 

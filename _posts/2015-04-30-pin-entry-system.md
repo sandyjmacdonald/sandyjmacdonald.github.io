@@ -4,9 +4,8 @@ title: PIN entry system
 tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","tutorial"]
 ---
 
-This tutorial will be coming to the Pimoroni learning portal that should launch soon and
-you can find the full tutorial 
-[here](https://github.com/sandyjmacdonald/pimoroni_learning_materials/blob/master/pin_entry.md), 
+**Update:** This tutorial is now on 
+[learn.pimoroni.com](http://learn.pimoroni.com/tutorial/sandyj/explorer-hat-explorer-hat-pin-entry), 
 but below is a brief version of it, showing you how you can set up the software and wire it
 all up.
 
@@ -29,7 +28,8 @@ Here's what you'll need:
 * A piezo electric buzzer
 * A bunch of jumper leads
 
-**Note that you can get all of these in the Pimoroni Explorer HAT Pro parts kit (coming soon).**
+**Note that you can get all of these components in the 
+[Explorer HAT Pro parts kit](http://shop.pimoroni.com/products/explorer-hat-pro-parts-kit).**
 
 And here it is in action:
 

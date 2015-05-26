@@ -10,10 +10,11 @@ It's such a versatile bit of kit, with its digital inputs and outputs, analog in
 motor outputs, capacitive touch and breadboard, the possibilites are endless.
 
 I've been putting together a few tutorials for the swish new 
-[learn.pimoroni.com](http://learn.pimoroni.com) page. More about them below. I've also
-given some input on what to include in a parts kit to go along with the Explorer HAT or
-Explorer HAT Pro. The kit has lots of simple components that you can use to put together 
-some fun projects with your Explorer HAT.
+[learn.pimoroni.com](http://learn.pimoroni.com) page. More about them below. 
+
+I've also given some input on what to include in a parts kit to go along with the 
+Explorer HAT or Explorer HAT Pro. It has lots of simple components that you can 
+use to put together some fun projects with your Explorer HAT.
 
 [The kit](http://shop.pimoroni.com/products/explorer-hat-pro-parts-kit)
 comes in a smart little metal tin; handy for keeping it all together or carrying it 

@@ -102,5 +102,3 @@ pick the LEDs that are switched on at the start, and print a message and flash t
 LEDs in a pretty pattern when you've won.
 
 Stay tuned for more Explorer HAT Pro projects in the coming weeks!
-
-{% include twitter_plug.html %}

@@ -121,5 +121,3 @@ You can download and run the script as follows:
 git clone https://gist.github.com/cfbb1e81acb3b140880e.git
 sudo python skywriter_palette.py
 {% endhighlight %}
-
-{% include twitter_plug.html %}

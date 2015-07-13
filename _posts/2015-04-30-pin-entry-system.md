@@ -197,5 +197,3 @@ Facebook, or send an email. Each user could have their own PIN that would trigge
 event specific to that user.
 
 **GO FORTH AND HACK, INTREPID EXPLORER!**
-
-{% include twitter_plug.html %}

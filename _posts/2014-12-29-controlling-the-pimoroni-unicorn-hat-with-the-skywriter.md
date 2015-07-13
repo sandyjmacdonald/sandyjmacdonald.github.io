@@ -242,6 +242,4 @@ sudo python unicorn_skywriter.py
 {% endhighlight %}
 
 I hope you have fun with this. You could even try using the z coordinates from 
-the Skywriter to control the hue of the spot. 
-
-{% include twitter_plug.html %}
+the Skywriter to control the hue of the spot.

@@ -74,5 +74,3 @@ first of these.
 
 In the meantime, just [buy one](http://shop.pimoroni.com/products/explorer-hat-pro-parts-kit)!
 Seriously, just [buy one](http://shop.pimoroni.com/products/explorer-hat-pro-parts-kit)!
-
-{% include twitter_plug.html %}

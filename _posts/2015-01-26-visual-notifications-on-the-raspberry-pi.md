@@ -97,5 +97,3 @@ that isn't connected to the internet and then security won't be an issue.
 The most obvious improvement for this would be to make it a two-way notification
 system. You could set this up with an extra Unicorn HAT and Skywriter and a 
 couple of [Black HAT Hack3rs](http://shop.pimoroni.com/products/black-hat-hacker).
-
-{% include twitter_plug.html %}

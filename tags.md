@@ -20,10 +20,12 @@ permalink: /tags/
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
   <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
-  <ul class="posts">
-    {% for post in site.tags[this_word] %}{% if post.title != null %}
-    <li itemscope><span class="entry-date">{{ post.date | date: "%b %-d, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}{% endfor %}
-  </ul>
+    <div class="post ml0">
+      {% for post in site.tags[this_word] %}{% if post.title != null %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+        <h4 class="post-title">{{ post.title }}</h4>
+          <p class="post-summary">{{ post.summary }}</p>
+       </a>
+      {% endif %}{% endfor %}
+    </div>
   {% endunless %}{% endfor %}
-</div>

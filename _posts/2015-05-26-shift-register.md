@@ -92,5 +92,3 @@ LEDs from the same 3 output pins. You'd just connect up the last output pin of o
 to the serial input pin of the second chip and connect up the other two input pins, the
 storage register clock and the shift register clock, from the two chips, so that they 
 switch on and off at the same time.
-
-{% include twitter_plug.html %}

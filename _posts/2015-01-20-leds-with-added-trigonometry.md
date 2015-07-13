@@ -132,5 +132,3 @@ You could combine it with my
 and use the Pimoroni Skywriter to control the colour of the LEDs with your
 finger in 3D space, or to control the speed of the animation. Make sure you 
 tweet me to show me what you've come up with.
-
-{% include twitter_plug.html %}

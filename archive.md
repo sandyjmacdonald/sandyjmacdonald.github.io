@@ -2,9 +2,11 @@
 layout: page
 title: Archive
 ---
-
-## Blog Posts
-
-{% for post in site.posts %}
-  * {{ post.date | date: "%b %-d, %Y" }} &raquo; [ {{ post.title }} ]({{ post.url }})
-{% endfor %}
+<div class="post ml0">
+	{% for post in site.posts %}
+		<a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+			<h4 class="post-title">{{ post.title }}</h4>
+			<p class="post-summary">{{ post.summary }}</p>
+		</a>
+	{% endfor %}
+</div>

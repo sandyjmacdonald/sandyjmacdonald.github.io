@@ -1,5 +1,5 @@
-# Stuff & Nonsense
+# sandyjmacdonald
 
-Bits of Python, bioinformatics and such...
+Bits of Python, bioinformatics and such.
 
-Based on the [Lanyon](https://github.com/poole/lanyon) Jekyll theme from Mark Otto.
+Based on the [Pixyll](http://pixyll.com) theme from [John Otander](http://johnotander.com)

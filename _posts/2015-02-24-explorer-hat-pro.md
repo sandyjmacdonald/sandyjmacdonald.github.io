@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Explorer HAT Pro
+date: 2015-02-24 12:00:00
+summary: Build a Lights Out game with Explorer HAT Pro.
 tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","tutorial"]
 ---
 

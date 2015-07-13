@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Controlling the Pimoroni Unicorn HAT with the Skywriter
+date: 2014-12-29 12:00:00
+summary: Use your finger to control an LED spot with the Unicorn HAT and Skywriter.
 tags: ["raspberry pi","python","pimoroni","skywriter","unicorn hat","black hat hack3r","tutorial"]
 ---
 

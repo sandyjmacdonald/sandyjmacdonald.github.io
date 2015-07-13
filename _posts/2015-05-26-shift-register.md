@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 8-bit shift registers and Explorer HAT
+date: 2015-06-25 12:00:00
+summary: Control eight LEDs from just three pins with an 8-bit shift register.
 tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","shift register","tutorial"]
 ---
 
@@ -27,13 +29,13 @@ Here's the shift register demo in action:
 
 If your Explorer HAT/Explorer HAT Pro isn't set up yet, you'll need to do the following:
 
-```bash
+{% highlight bash %}
 curl get.pimoroni.com/i2c | bash
 sudo apt-get install python-smbus
 git clone https://github.com/sandyjmacdonald/explorer-hat.git
 cd explorer-hat/library
 sudo python setup.py install
-```
+{% endhighlight %}
 
 Those commands will install set up I2C and install my fork of the Explorer HAT Python library.
 
@@ -43,9 +45,9 @@ You'll want to plug your Explorer HAT into the 40 pin GPIO connector on your
 Raspberry Pi. You can check it's working by typing the following straight in the 
 terminal:
 
-```bash
+{% highlight bash %}
 sudo python -c 'import time, explorerhat; explorerhat.light.on(); time.sleep(1); explorerhat.light.off()'
-```
+{% endhighlight %}
 
 That should light up all four of the LEDs on the Explorer HAT board for a second and then
 switch them all off again. If that works, then your Explorer HAT is good to go!
@@ -69,12 +71,12 @@ You can start an interactive Python prompt by typing `sudo python` and pressing 
 (the `sudo` is important as you need it to be able to interact properly with Explorer HAT).
 Type the following to run a demo of the `ShiftRegister` class:
 
-```python
+{% highlight python %}
 from explorerhat import plugins
 
 shiftreg = plugins.ShiftRegister()
 shiftreg.demo()
-```
+{% endhighlight %}
 
 This should blink all 8 LEDs on and off 5 times, run along the line of LEDs 5 times,
 alternately blink the odd and even LEDs 5 times and run back and forth along the line

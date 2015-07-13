@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 I'm a scientist - a microbiologist by trade - now working as a bioinformatician
@@ -21,18 +22,15 @@ Pi, photography and reading graphic novels.
 
 ----------
 
-# Colophon
+## Colophon
 
 This site uses [Jekyll](http://jekyllrb.com), [SASS](http://sass-lang.com),
 [GitHub Pages](https://pages.github.com)
-and the [Lanyon](https://github.com/poole/lanyon) theme from 
-[Mark Otto](https://github.com/mdo).
+and the [Pixyll](http://pixyll.com) theme from 
+[John Otander](http://johnotander.com).
 
-The social icons are from the brilliant
-[Font Awesome](http://fortawesome.github.io/Font-Awesome/).
-
-Both typefaces used on the site, PT Sans for the headings and PT Serif for the
-body text are from [Google Fonts](https://www.google.com/fonts).
+The typefaces used on the site are Lato for the headings and Merriweather for the
+body text.
 
 The code was written in [Sublime Text](http://www.sublimetext.com), pushed to
 GitHub with [iTerm 2](http://iterm2.com) and issues were managed with
@@ -40,10 +38,8 @@ GitHub with [iTerm 2](http://iterm2.com) and issues were managed with
 
 You can find me in these places:
 
-<p class="social-icons">
-	<a href="https://github.com/sandyjmacdonald"><i class="fa fa-github fa-lg"></i></a>
-	<a href="https://twitter.com/sandyjmacdonald"><i class="fa fa-twitter fa-lg"></i></a>
-	<a href="https://facebook.com/sandyjmacdonald"><i class="fa fa-facebook fa-lg"></i></a>
-	<a href="http://www.linkedin.com/in/sandyjmacdonald"><i class="fa fa-linkedin fa-lg"></i></a>
-	<a href="mailto:sandyjmacdonald@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
-</p>
+* [GitHub](https://github.com/sandyjmacdonald)
+* [Twitter](https://twitter.com/sandyjmacdonald)
+* [Facebook](https://facebook.com/sandyjmacdonald)
+* [LinkedIn](http://www.linkedin.com/in/sandyjmacdonald)
+* [Email](mailto:sandyjmacdonald@gmail.com)

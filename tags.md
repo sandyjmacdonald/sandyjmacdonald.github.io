@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tags
+permalink: /tags/
 ---
 <!-- site_tags: {{ site_tags }} -->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -21,7 +22,7 @@ title: Tags
   <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
   <ul class="posts">
     {% for post in site.tags[this_word] %}{% if post.title != null %}
-    <li itemscope><span class="entry-date"><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date_to_string }}</time></span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li itemscope><span class="entry-date">{{ post.date | date: "%b %-d, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}{% endfor %}
   </ul>
   {% endunless %}{% endfor %}

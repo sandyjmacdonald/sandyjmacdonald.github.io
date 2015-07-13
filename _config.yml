@@ -1,28 +1,57 @@
-# Dependencies
-markdown:            redcarpet
+# Site settings
+title: sandyjmacdonald
+email: sandyjmacdonald@example.com
+author: Sandy Macdonald
+tagline: 'Bits of Python, bioinformatics and such'
+description: 'Bits of Python, bioinformatics and such'
+baseurl: ''
+url: 'http://sandyjmacdonald.github.io'
+
+# Google analytics
+google_analytics: UA-58080101-1
+
+# Optional features
+animated: true
+show_related_posts: true
+show_post_footers: false
+show_social_icons: false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+github_username: sandyjmacdonald
+stackoverflow_id:
+twitter_username: sandyjmacdonald
+google_plus_id:
+linkedin_username:
+angellist_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+share_text: 'Share this post!'
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: false
+share_digg: false
+share_tumblr: true
+share_reddit: true
+share_stumbleupon: true
+share_hackernews: false
+
+# Build settings
+markdown: kramdown
 redcarpet:
-  extensions: ['smart']
-highlighter:         pygments
-
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
-# Setup
-title:               Stuff & Nonsense
-tagline:             'Bits of Python, bioinformatics and such from <a href="https://twitter.com/sandyjmacdonald" target="_blank">@sandyjmacdonald</a>'
-description:         'Bits of Python, bioinformatics and such from <a href="https://twitter.com/sandyjmacdonald" target="_blank">@sandyjmacdonald</a>.'
-url:                 http://sandyjmacdonald.github.io
-baseurl:             /
-paginate:            5
-
-# About/contact
-author:
-  name:              Sandy Macdonald
-  url:               https://twitter.com/sandyjmacdonald
-  email:             
-
-# Custom vars
-version:             1.1.1
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink: pretty
+paginate: 5
+sass:
+  compressed: true
+gems:
+  - jekyll-sitemap

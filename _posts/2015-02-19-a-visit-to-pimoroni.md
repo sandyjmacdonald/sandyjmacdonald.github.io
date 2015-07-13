@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A visit to Pimoroni
+date: 2015-02-19 12:00:00
+summary: A write-up of my visit to the Pimoroni factory.
 tags: ["pimoroni","flotilla","slice","picade","propeller hat","explorer hat","framboisedorf"]
 ---
 

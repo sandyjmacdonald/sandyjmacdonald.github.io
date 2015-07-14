@@ -27,12 +27,12 @@ layout: default
 </article>
 
 {% if page.tags != empty %}
-  <p class="tags tag-box inline">
-    <i>Tagged with:</i>
+    <ul class="tag-box inline">
+    <li><i>Tagged with:</i></li>
     {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
+      <li><a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a></li>
     {% endfor %}
-    </p>
+    </ul>
 {% endif %}
 
 {% include twitter_plug.html %}

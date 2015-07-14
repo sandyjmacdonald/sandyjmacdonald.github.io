@@ -21,14 +21,13 @@
   }
   &.inline li {
     float: left;
-    font-size: 14px;
-    font-size: 0.875rem;
-    line-height: 2.5;
+    line-height: $line-height*1.25;
   }
   a {
+    font-size: 0.875rem;
     padding: 4px 6px;
     margin: 2px;
-    background-color: #e6e6e6;
+    background-color: $pre-background-color;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -37,6 +36,11 @@
       vertical-align: super;
       font-size: 10px;
       font-size: 0.625rem;
+    }
+  i {
+    float: left;
+    font-size: $base-font-size;
+    line-height: $line-height;
     }
   }
 }

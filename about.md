@@ -35,11 +35,3 @@ body text.
 The code was written in [Sublime Text](http://www.sublimetext.com), pushed to
 GitHub with [iTerm 2](http://iterm2.com) and issues were managed with
 [Waffle](https://waffle.io).
-
-You can find me in these places:
-
-* [GitHub](https://github.com/sandyjmacdonald)
-* [Twitter](https://twitter.com/sandyjmacdonald)
-* [Facebook](https://facebook.com/sandyjmacdonald)
-* [LinkedIn](http://www.linkedin.com/in/sandyjmacdonald)
-* [Email](mailto:sandyjmacdonald@gmail.com)

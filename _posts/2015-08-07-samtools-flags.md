@@ -25,20 +25,26 @@ all of the flags, but doesn't show combinations of `-f` and `-F` (output/don't o
 **Mapped pairs (fwd. and rev. both mapped)**  
 `samtools view -f 2 mapping.sorted.bam | cut -f1 | sort | uniq`
 
-**Unmapped pairs (fwd. and rev. both unmapped)**  
+**Unmapped (fwd. or rev. or both unmapped)**  
 `samtools view -F 2 mapping.sorted.bam | cut -f1 | sort | uniq`
 
-**Mapped fwd. (rev. is unmapped)**  
+**Mapped fwd.**  
 `samtools view -F 4 -f 64 mapping.sorted.bam | cut -f1 | sort | uniq`
 
-**Mapped rev. (fwd. is unmapped)**  
+**Mapped rev.**  
 `samtools view -F 4 -f 128 mapping.sorted.bam | cut -f1 | sort | uniq`
 
-**Unmapped fwd. (rev. is mapped)**  
+**Unmapped fwd.**  
 `samtools view -f 68 mapping.sorted.bam | cut -f1 | sort | uniq`
 
-**Unmapped rev. (fwd. is mapped)**  
+**Unmapped rev.**  
 `samtools view -f 72 mapping.sorted.bam | cut -f1 | sort | uniq`
+
+**Mapped fwd. (rev. is unmapped), or vice versa**  
+`samtools view -f 64 -F 6 mapping.sorted.bam | cut -f1 | sort | uniq`
+
+**Mapped rev. (fwd. is unmapped), or vice versa**  
+`samtools view -f 128 -F 6 mapping.sorted.bam | cut -f1 | sort | uniq`
 
 And if you just want counts of the above, then add `| wc -l` to the end of any of the above commands.
 

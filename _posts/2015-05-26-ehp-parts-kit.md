@@ -4,22 +4,23 @@ title: The Explorer HAT Pro parts kit
 date: 2015-05-26 12:00:00
 summary: Everything you need to get started with your Explorer HAT Pro.
 tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","parts kit"]
+visible: 1
 ---
 
 The Pimoroni [Explorer HAT Pro](http://shop.pimoroni.com/products/explorer-hat)
-has quickly become my favourite Raspberry Pi HAT. 
+has quickly become my favourite Raspberry Pi HAT.
 It's such a versatile bit of kit, with its digital inputs and outputs, analog inputs,
 motor outputs, capacitive touch and breadboard, the possibilites are endless.
 
-I've been putting together a few tutorials for the swish new 
-[learn.pimoroni.com](http://learn.pimoroni.com) page. More about them below. 
+I've been putting together a few tutorials for the swish new
+[learn.pimoroni.com](http://learn.pimoroni.com) page. More about them below.
 
-I've also given some input on what to include in a parts kit to go along with the 
-Explorer HAT or Explorer HAT Pro. It has lots of simple components that you can 
+I've also given some input on what to include in a parts kit to go along with the
+Explorer HAT or Explorer HAT Pro. It has lots of simple components that you can
 use to put together some fun projects with your Explorer HAT.
 
 [The kit](http://shop.pimoroni.com/products/explorer-hat-pro-parts-kit)
-comes in a smart little metal tin; handy for keeping it all together or carrying it 
+comes in a smart little metal tin; handy for keeping it all together or carrying it
 around with you.
 
 ![Parts kit closed]({{ site.url }}/assets/explorer_hat_parts_kit_1.jpg)
@@ -42,7 +43,7 @@ And here's a list of everything that comes in it.
 
 # PIN entry system
 
-A few weeks back, I published a [tutorial](http://learn.pimoroni.com/tutorial/sandyj/explorer-hat-explorer-hat-pin-entry) 
+A few weeks back, I published a [tutorial](http://learn.pimoroni.com/tutorial/sandyj/explorer-hat-explorer-hat-pin-entry)
 on how to set up a fun little PIN entry system with some of the bits from the
 parts kit.
 
@@ -62,7 +63,7 @@ Check out the blinkiness!
 
 # More to come...
 
-I'll be putting together more of these tutorials with the Explorer HAT Pro parts kits in 
+I'll be putting together more of these tutorials with the Explorer HAT Pro parts kits in
 the coming weeks. To tease you, I'm working on a simple one that will use the rotary
 potentiometer to control some LEDs, and a more advanced one that builds a visual
 thermometer with the TMP36 analog temperature sensor.

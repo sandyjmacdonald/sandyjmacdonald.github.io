@@ -4,14 +4,15 @@ title: 8-bit shift registers and Explorer HAT
 date: 2015-06-25 12:00:00
 summary: Control eight LEDs from just three pins with an 8-bit shift register.
 tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","shift register","tutorial"]
+visible: 1
 ---
 
-You can find the full version of this tutorial 
-[here](https://github.com/sandyjmacdonald/pimoroni_learning_materials/blob/master/shift_register.md), 
+You can find the full version of this tutorial
+[here](https://github.com/sandyjmacdonald/pimoroni_learning_materials/blob/master/shift_register.md),
 but below are a few excerpts that describe briefly how to set it up and get it running.
 
 8-bit shift registers are pretty cool little bits of kit (and cheap to boot)! They let you increase the
-number of output pins from three to eight, or even more if you daisy chain the shift register chips 
+number of output pins from three to eight, or even more if you daisy chain the shift register chips
 together.
 
 Here's what you'll need:
@@ -42,7 +43,7 @@ Those commands will install set up I2C and install my fork of the Explorer HAT P
 Here's my usual blurb about checking that everything is set up properly...
 
 You'll want to plug your Explorer HAT into the 40 pin GPIO connector on your
-Raspberry Pi. You can check it's working by typing the following straight in the 
+Raspberry Pi. You can check it's working by typing the following straight in the
 terminal:
 
 {% highlight bash %}
@@ -67,7 +68,7 @@ different patterns to use with LEDs. If you've followed the instructions above t
 and install my fork of the Explorer HAT library, then you'll already have the plugins
 module and ShiftRegister class available to you.
 
-You can start an interactive Python prompt by typing `sudo python` and pressing return 
+You can start an interactive Python prompt by typing `sudo python` and pressing return
 (the `sudo` is important as you need it to be able to interact properly with Explorer HAT).
 Type the following to run a demo of the `ShiftRegister` class:
 
@@ -90,5 +91,5 @@ For lots of detail on how the code works, check out the full version of the tuto
 It's possible to daisy-chain the 8-bit shift register chips together to drive even more
 LEDs from the same 3 output pins. You'd just connect up the last output pin of one chip
 to the serial input pin of the second chip and connect up the other two input pins, the
-storage register clock and the shift register clock, from the two chips, so that they 
+storage register clock and the shift register clock, from the two chips, so that they
 switch on and off at the same time.

@@ -6,7 +6,7 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
-      {% if not post.visible == 0 %}
+      {% if post.visible == 1 %}
       <div class="post py1">
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>

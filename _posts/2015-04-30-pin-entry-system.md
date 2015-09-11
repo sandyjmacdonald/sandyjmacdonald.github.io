@@ -4,21 +4,22 @@ title: PIN entry system
 date: 2015-04-30 12:00:00
 summary: Create a PIN entry system with Explorer HAT Pro and the parts kit.
 tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","tutorial"]
+visible: 1
 ---
 
-**Update:** This tutorial is now on 
-[learn.pimoroni.com](http://learn.pimoroni.com/tutorial/sandyj/explorer-hat-explorer-hat-pin-entry), 
+**Update:** This tutorial is now on
+[learn.pimoroni.com](http://learn.pimoroni.com/tutorial/sandyj/explorer-hat-explorer-hat-pin-entry),
 but below is a brief version of it, showing you how you can set up the software and wire it
 all up.
 
-Here, you'll learn how to combine a couple of different output 
-devices with the capacitative touch buttons on the 
+Here, you'll learn how to combine a couple of different output
+devices with the capacitative touch buttons on the
 [Pimoroni Explorer HAT/Explorer HAT Pro](http://shop.pimoroni.com/products/explorer-hat),
 to create a fun little PIN entry system that will flash LEDs and buzz a buzzer when
 a correct/incorrect code is entered.
 
 We'll see how to connect up and control LEDs using the Explorer HAT outputs and a little
-piezo buzzer using the PWM (pulse width modulation) channel of the Raspberry Pi that's 
+piezo buzzer using the PWM (pulse width modulation) channel of the Raspberry Pi that's
 broken out on the Explorer HAT.
 
 Here's what you'll need:
@@ -30,7 +31,7 @@ Here's what you'll need:
 * A piezo electric buzzer
 * A bunch of jumper leads
 
-**Note that you can get all of these components in the 
+**Note that you can get all of these components in the
 [Explorer HAT Pro parts kit](http://shop.pimoroni.com/products/explorer-hat-pro-parts-kit).**
 
 And here it is in action:
@@ -51,7 +52,7 @@ sudo pip install explorerhat
 Those commands will install set up I2C and install the Explorer HAT Python library.
 
 Next, you'll want to plug your Explorer HAT into the 40 pin GPIO connector on your
-Raspberry Pi. You can check it's working by typing the following straight in the 
+Raspberry Pi. You can check it's working by typing the following straight in the
 terminal:
 
 {% highlight bash %}
@@ -65,10 +66,10 @@ switch them all off again. If that works, then your Explorer HAT is good to go!
 
 The wiring diagram is shown below.
 
-Make sure that you connect the LEDs up the right way round, with the long leg - the anode - 
-connected via the resistor to the 5V supply and the shorter leg connected to the output channel. 
-The resistors connected to the LEDs are voltage-limiting resistors and reduce the 5V supply to a 
-safe voltage for the LEDs. The piezo buzzer and the resistors can be connected up any which way 
+Make sure that you connect the LEDs up the right way round, with the long leg - the anode -
+connected via the resistor to the 5V supply and the shorter leg connected to the output channel.
+The resistors connected to the LEDs are voltage-limiting resistors and reduce the 5V supply to a
+safe voltage for the LEDs. The piezo buzzer and the resistors can be connected up any which way
 you'd like.
 
 

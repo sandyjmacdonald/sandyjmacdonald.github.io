@@ -4,6 +4,7 @@ title: SAMtools flags
 date: 2015-08-03 17:00:00
 summary: SAMtools flags for every occasion.
 tags: ["samtools","genomics","bioinformatics"]
+visible: 1
 ---
 
 This afternoon, in the office, we were trying get our heads round what seemed

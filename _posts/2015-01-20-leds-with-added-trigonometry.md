@@ -4,6 +4,7 @@ title: LEDs with added trigonometry
 date: 2015-01-20 12:00:00
 summary: Create some pretty patterns with Unicorn HAT and trigonometric functions.
 tags: ["raspberry pi","python","pimoroni","unicorn hat","tutorial"]
+visible: 1
 ---
 
 Here's a quick tutorial on how to create some pretty patterns with the Pimoroni
@@ -11,7 +12,7 @@ Unicorn HAT (or inferior LED matrix of your choice) and your Raspberry Pi.
 
 {% include embed_video.html param="http://www.youtube.com/embed/7HqM97X0lyo" %}
 
-You probably remember trigonometry from school, when you used it to calculate 
+You probably remember trigonometry from school, when you used it to calculate
 the angles inside a triangle. Well, it turns out that if you use trigonometric
 functions to transform a set of x and y coordinates to z coordinates and then
 plot them in 3D space, they look *really* cool. Below is a simple cos(x) +
@@ -30,8 +31,8 @@ All you'll need is:
 As always, do a `sudo apt-get update` and `sudo apt-get upgrade` to get
 everything up-to-date on your Raspberry Pi.
 
-You can get my `trig.py` script from 
-[my fork](https://github.com/sandyjmacdonald/unicorn-hat) 
+You can get my `trig.py` script from
+[my fork](https://github.com/sandyjmacdonald/unicorn-hat)
 of Pimoroni's Unicorn HAT library as follows:
 
 {% highlight bash %}
@@ -40,7 +41,7 @@ cd unicorn-hat)/python/examples
 sudo python trig.py
 {% endhighlight %}
 
-Or if you already have the library and just want 
+Or if you already have the library and just want
 [the script](https://gist.github.com/sandyjmacdonald/3971d222b7e74fbb5f7a):
 
 {% highlight bash %}
@@ -58,29 +59,29 @@ we'll need and to dial down the brightness of the LEDs a tad.
 
 {% highlight python %}
 #!/usr/bin/env python
- 
+
 import unicornhat as unicorn
 import time, colorsys
 import math
- 
+
 unicorn.brightness(0.5)
 {% endhighlight %}
 
 Our function to calculate the brightness values is pretty simple. It takes the
-`x` and `y` coordinates of each LED and uses the `math.sin()` and `math.cos()` 
-functions from the math library to give us a value for the brightness. 
+`x` and `y` coordinates of each LED and uses the `math.sin()` and `math.cos()`
+functions from the math library to give us a value for the brightness.
 
-As you'll see from the graph of the cos(x) + sin(y) function above, the limits 
-on the z axis are -2 and +2, so to get a brightness value between 0 and 1 we 
+As you'll see from the graph of the cos(x) + sin(y) function above, the limits
+on the z axis are -2 and +2, so to get a brightness value between 0 and 1 we
 just add 2 to the result of our trigonometric function and then divide by 4.
 
-We also have a `t` value that we pass to the function. This allows us to 
+We also have a `t` value that we pass to the function. This allows us to
 increment this value and vary the pattern through time by adding it to the
 `x` and `y` values on each iteration.
 
 Last of all, to mix things up a bit, we vary our sin + cos function to produce
-three different patterns that I've called `parallel`, `diagonal` and 
-`crisscross`. 
+three different patterns that I've called `parallel`, `diagonal` and
+`crisscross`.
 
 {% highlight python %}
 def compute_z(x, y, t, pattern):
@@ -98,7 +99,7 @@ def compute_z(x, y, t, pattern):
 
 The final part of our program uses a `while True` loop to keep things running
 indefinitely. It loops through a list of our three patterns and runs each for
-100 iterations. Then it loops through each `x` and `y` coordinate, calculates 
+100 iterations. Then it loops through each `x` and `y` coordinate, calculates
 the brightness values with our `compute_z` function and converts the HSV
 values to RGB values. We set all of the LEDs to their given values and then
 use a `time.sleep(0.05)` to control the refresh rate which, in conjunction
@@ -130,5 +131,5 @@ control the colour of each LED or just cycle through different colours.
 You could combine it with my
 [previous tutorial]({{ site.url }}/2015/01/07/using-the-pimoroni-unicorn-hat-and-skywriter-as-a-colour-palette/)
 and use the Pimoroni Skywriter to control the colour of the LEDs with your
-finger in 3D space, or to control the speed of the animation. Make sure you 
+finger in 3D space, or to control the speed of the animation. Make sure you
 tweet me to show me what you've come up with.

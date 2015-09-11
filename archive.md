@@ -9,5 +9,6 @@ title: Archive
 			<h4 class="post-title">{{ post.title }}</h4>
 			<p class="post-summary">{{ post.summary }}</p>
 		</a>
+	  {% endif %}
 	{% endfor %}
 </div>

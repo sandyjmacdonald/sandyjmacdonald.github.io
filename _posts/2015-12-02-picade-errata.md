@@ -86,7 +86,7 @@ and [Pimoroni SN3218A](https://github.com/pimoroni/pimoroni_arduino_sn3218)
 Arduino libraries installed. Here's the code, and it's also in my
 [Pimpcade GitHub repo](https://github.com/sandyjmacdonald/pimpcade).
 
-```c
+{% highlight c %}
 #include <Adafruit_NeoPixel.h>
 #include <Wire.h>
 #include "sn3218.h"
@@ -133,7 +133,7 @@ void loop() {
   sn3218.update();
   pulseColor(strip.Color(110, 40, 210), fadeSpeed);
 }
-```
+{% endhighlight %}
 
 That's all for now. I have a couple of other things in mind - using a
 Displayotron HAT to control the lights and/or using one of the shiny new pHAT

@@ -12,9 +12,9 @@ visible: 1
 After publishing my [Picade MEGA REVIEW]({{ site.url }}/2015/09/08/picade/), I
 realised there were a few things I left out, or didn't give enough detail on.
 I'll be appearing on
-Pimoroni's [Bilge Tank](https://www.youtube.com/watch?v=7W8505rPRXA) webcast to
-speak about my Picade modifications so, in advance of that, here are all the
-bits I missed the first time.
+Pimoroni's [Bilge Tank](https://www.youtube.com/watch?v=7W8505rPRXA) webcast this
+Thursday to speak about my Picade modifications so, in advance of that, here are
+all the bits I missed the first time.
 
 {% include embed_video.html param="http://www.youtube.com/embed/UBYuBEDut8c" %}
 
@@ -32,7 +32,7 @@ adhesive tape on the back to stick them to the MDF mount.
 
 I replaced the existing marquee MDF and Perspex layers with some new ones that
 would allow the Neopixels to shine through better. These were a rear layer of
-ayer of frosted purple Perspex with the Picade logo cut out behind and, in
+frosted purple Perspex with the Picade logo cut out behind and, in
 front, a clear layer of Perspex with a laser-etched Picade logo.
 
 ![Picade Perspex layers]({{ site.url }}/assets/picade_perspex_layers.jpg)

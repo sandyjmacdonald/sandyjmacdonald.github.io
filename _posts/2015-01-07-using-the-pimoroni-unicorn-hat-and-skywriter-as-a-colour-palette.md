@@ -70,7 +70,7 @@ controls the brightness.
 
 So, here's the whole program.
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 import unicornhat as unicorn
@@ -97,7 +97,7 @@ def palette(x, y, z):
         time.sleep(0.0005)
 
 signal.pause()
-{% endhighlight %}
+```
 
 We import a few things we need, set the brightness of the Unicorn HAT a bit
 lower than the maximum to protect our retinas, rotate the Unicorn HAT to match
@@ -118,7 +118,7 @@ And that's it.
 
 You can download and run the script as follows:
 
-{% highlight bash %}
+```bash
 git clone https://gist.github.com/cfbb1e81acb3b140880e.git
 sudo python skywriter_palette.py
-{% endhighlight %}
+```

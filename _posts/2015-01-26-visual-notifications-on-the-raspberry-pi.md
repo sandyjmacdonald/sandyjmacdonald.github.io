@@ -36,22 +36,22 @@ everything up-to-date on your Raspberry Pi.
 
 As in my previous tutorials, set up the Unicorn HAT and Skywriter as follows:
 
-{% highlight bash %}
+```bash
 sudo pip install unicornhat
-{% endhighlight %}
+```
 
 and then  
 
-{% highlight bash %}
+```bash
 sudo pip install skywriter
-{% endhighlight %}
+```
 
 Then you can clone the [GitHub repo](https://github.com/sandyjmacdonald/unicorn_notifier)
 with the two scripts you'll need by typing:
 
-{% highlight bash %}
+```bash
 git clone https://github.com/sandyjmacdonald/unicorn_notifier
-{% endhighlight %}
+```
 
 I'll presume that you've set up wifi on your Raspberry Pis already, but if not
 then it's really easy - just plug in a monitor and keyboard, launch the desktop
@@ -67,15 +67,15 @@ On the Pi with the Skywriter attached, the sender, you'll need to edit the line
 that says `host = '192.168.0.XX'` and add the IP address that you wrote down
 earlier. Then run the script by typing:
 
-{% highlight bash %}
+```bash
 sudo python skywriter_send.py
-{% endhighlight %}
+```
 
 On the other Pi, with the Unicorn HAT on, type:
 
-{% highlight bash %}
+```bash
 sudo python skywriter_receive.py
-{% endhighlight %}
+```
 
 You should see it say `Waiting to receive messages...`.
 

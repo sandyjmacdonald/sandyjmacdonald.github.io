@@ -55,13 +55,13 @@ Here it is in action:
 I've added the game to [my fork](https://github.com/sandyjmacdonald/explorer-hat) of
 the Pimoroni Explorer HAT library. You can download it, install, and run it as follows:
 
-{% highlight bash %}
+```bash
 git clone https://github.com/sandyjmacdonald/explorer-hat.git
 cd explorer-hat/library
 sudo python setup.py install
 cd ../examples
 sudo python lights_out.py
-{% endhighlight %}
+```
 
 You may also need to `curl get.pimoroni.com/i2c | bash` and
 `sudo apt-get install python-smbus`.
@@ -70,17 +70,17 @@ The code is really simple, thanks largely to the convenient `explorerhat.light[i
 method that toggles a light to its opposite state. All we have to do is periodically check
 the state of the 4 LEDs with a while loop:
 
-{% highlight python %}
+```python
 while len(light_nums) > 0:
 	explorerhat.touch.pressed(toggle_light)
 	light_nums = [i for i in range(0,4) if explorerhat.light[i].is_on()]
 	time.sleep(0.05)
-{% endhighlight %}
+```
 
 And then we trigger a `toggle_light` function that toggles that LED, and the adjacent ones,
 when a touch is detected by `explorerhat.touch.pressed()`:
 
-{% highlight python %}
+```python
 def toggle_light(channel, event):
 	if channel > 4:
 		return
@@ -96,7 +96,7 @@ def toggle_light(channel, event):
 			explorerhat.light[channel-2].toggle()
 			explorerhat.light[channel].toggle()
 		print 'You have taken %i moves so far. Keep going!' % num_moves
-{% endhighlight %}
+```
 
 We also have a couple of extra bits that check the number of moves taken, randomly
 pick the LEDs that are switched on at the start, and print a message and flash the

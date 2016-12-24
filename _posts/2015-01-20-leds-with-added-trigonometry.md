@@ -35,19 +35,19 @@ You can get my `trig.py` script from
 [my fork](https://github.com/sandyjmacdonald/unicorn-hat)
 of Pimoroni's Unicorn HAT library as follows:
 
-{% highlight bash %}
+```bash
 git clone https://github.com/sandyjmacdonald/unicorn-hat.git
 cd unicorn-hat)/python/examples
 sudo python trig.py
-{% endhighlight %}
+```
 
 Or if you already have the library and just want
 [the script](https://gist.github.com/sandyjmacdonald/3971d222b7e74fbb5f7a):
 
-{% highlight bash %}
+```bash
 git clone https://gist.github.com/3971d222b7e74fbb5f7a.git
 sudo python trig.py
-{% endhighlight %}
+```
 
 Stop reading here if you just want to be mesmerised by the blinky lights, or
 read on if you want to know how it all works.
@@ -57,7 +57,7 @@ read on if you want to know how it all works.
 We have some boilerplate at the top of our script to import libraries that
 we'll need and to dial down the brightness of the LEDs a tad.
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 import unicornhat as unicorn
@@ -65,7 +65,7 @@ import time, colorsys
 import math
 
 unicorn.brightness(0.5)
-{% endhighlight %}
+```
 
 Our function to calculate the brightness values is pretty simple. It takes the
 `x` and `y` coordinates of each LED and uses the `math.sin()` and `math.cos()`
@@ -83,7 +83,7 @@ Last of all, to mix things up a bit, we vary our sin + cos function to produce
 three different patterns that I've called `parallel`, `diagonal` and
 `crisscross`.
 
-{% highlight python %}
+```python
 def compute_z(x, y, t, pattern):
 	x = x + t
 	y = y + t
@@ -95,7 +95,7 @@ def compute_z(x, y, t, pattern):
 		z = math.sin(x) + math.cos(y)
 	z = (z + 2) / 4
 	return z
-{% endhighlight %}
+```
 
 The final part of our program uses a `while True` loop to keep things running
 indefinitely. It loops through a list of our three patterns and runs each for
@@ -106,7 +106,7 @@ use a `time.sleep(0.05)` to control the refresh rate which, in conjunction
 with the `for t in range(100)` loop, means that each pattern will run for
 about 5 seconds.
 
-{% highlight python %}
+```python
 while True:
 	for pattern in patterns:
 		for t in range(100):
@@ -122,7 +122,7 @@ while True:
 					unicorn.set_pixel(x, y, r, g, b)
 			unicorn.show()
 			time.sleep(0.05)
-{% endhighlight %}
+```
 
 ## Taking it further
 

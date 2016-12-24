@@ -138,14 +138,14 @@ The Python numpy library makes it simple to produce a matrix of values sampled
 from a 2D Gaussian that we can use to set the brightness of the LEDs on the
 Unicorn HAT. Here's the function that creates that 8x8 matrix of values:
 
-{% highlight python %}
+```python
 def make_gaussian(fwhm, x0, y0):
 	x = np.arange(0, 8, 1, float)
 	y = x[:, np.newaxis]
 	fwhm = fwhm
 	gauss = np.exp(-4 * np.log(2) * ((x - x0) ** 2 + (y - y0) ** 2) / fwhm ** 2)
 	return gauss
-{% endhighlight %}
+```
 
 The `fwhm` variable controls the width of the spot, smaller values making it
 more focussed and larger values making it less focussed. The `x0` and `y0`
@@ -157,7 +157,7 @@ set the brightness of the Unicorn HAT LEDs with those values. Adding another
 loop to change the value of the `fwhm` variable allows us to blink the spot on
 and off:
 
-{% highlight python %}
+```python
 while True:
 	x0, y0 = 3.5, 3.5
 	for z in range(1, 5)[::-1] + range(1, 10):
@@ -175,7 +175,7 @@ while True:
 				unicorn.set_pixel(x, y, r, g, b)
 		unicorn.show()
 		time.sleep(0.0005)
-{% endhighlight %}
+```
 
 You can see the result in the GIF below.
 
@@ -199,7 +199,7 @@ movements from the Skywriter match up with the orientation of the Unicorn HAT.
 
 Here's our new `spot` function with the Skywriter decorator:
 
-{% highlight python %}
+```python
 @skywriter.move()
 def spot(x, y, z):
         x0 = x * 7
@@ -218,7 +218,7 @@ def spot(x, y, z):
                         unicorn.set_pixel(i, j, r, g, b)
         unicorn.show()
         time.sleep(0.0005)
-{% endhighlight %}
+```
 
 The `x`, `y` and `z` passed to the `spot` function become values between
 0 and 1 that correspond to the x, y and z coordinates in 3D space thanks
@@ -231,16 +231,16 @@ on the 8x8 matrix.
 The last thing is to add the following line towards the top of our program
 which will rotate the Unicorn HAT matrix 270 degrees:
 
-{% highlight python %}
+```python
 unicorn.rotation(270)
-{% endhighlight %}
+```
 
 You can download and run the script as follows:
 
-{% highlight bash %}
+```bash
 git clone https://gist.github.com/db8d493085b39727d3b1.git
 sudo python unicorn_skywriter.py
-{% endhighlight %}
+```
 
 I hope you have fun with this. You could even try using the z coordinates from
 the Skywriter to control the hue of the spot.

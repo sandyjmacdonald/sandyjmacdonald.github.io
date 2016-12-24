@@ -42,12 +42,12 @@ And here it is in action:
 
 If your Explorer HAT/Explorer HAT Pro isn't set up yet, you'll need to do the following:
 
-{% highlight bash %}
+```bash
 curl get.pimoroni.com/i2c | bash
 sudo apt-get install python-smbus
 sudo apt-get install python-pip
 sudo pip install explorerhat
-{% endhighlight %}
+```
 
 Those commands will install set up I2C and install the Explorer HAT Python library.
 
@@ -55,9 +55,9 @@ Next, you'll want to plug your Explorer HAT into the 40 pin GPIO connector on yo
 Raspberry Pi. You can check it's working by typing the following straight in the
 terminal:
 
-{% highlight bash %}
+```bash
 sudo python -c 'import time, explorerhat; explorerhat.light.on(); time.sleep(1); explorerhat.light.off()'
-{% endhighlight %}
+```
 
 That should light up all four of the LEDs on the Explorer HAT board for a second and then
 switch them all off again. If that works, then your Explorer HAT is good to go!
@@ -94,15 +94,15 @@ going on.
 
 Here's how to clone and run the code:
 
-{% highlight bash %}
+```bash
 git clone https://github.com/sandyjmacdonald/explorer-hat.git
 cd explorer-hat/examples
 sudo python pin_entry.py
-{% endhighlight %}
+```
 
 And here's the code in full:
 
-{% highlight python %}
+```python
 ## Imports, for time delays, controlling Explorer HAT and GPIO pin 18
 ## for the piezo buzzer.
 
@@ -179,7 +179,7 @@ except Exception:
 
 finally:
         GPIO.cleanup()
-{% endhighlight %}
+```
 
 The [full version of the tutorial](https://github.com/sandyjmacdonald/pimoroni_learning_materials/blob/master/pin_entry.md)
 explains in detail about how the code works, so I won't go into detail here.

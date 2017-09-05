@@ -51,13 +51,13 @@ render at high frame rate 60FPS or slow down 2.5x to 24FPS, and can still
 upscale my render to 4k with really good results. I've also been shooting in
 Cinelike V, which I've found I much prefer to Cinelike D.
 
-In terms of editing, I've bought the Osiris LUTs, and have really been enjoying
-the KDX and M3 ones in particular. My workflow is to apply the LUT in the
-creative settings in Premiere Pro, then tweak the exposure and other settings
-until I'm in the correct ballpark, and then go back to the creative settings to
-fine tune the vividness, saturation, sharpness, and so on. I've also been
-overlaying some 4k 35mm film grain textures over the top to give a beautiful
-film look.
+In terms of editing, I've bought the [Osiris LUTs](https://www.colorgradingcentral.com/osiris/),
+and have really been enjoying the KDX and M3 ones in particular. My workflow is
+to apply the LUT in the creative settings in Premiere Pro, then tweak the
+exposure and other settings until I'm in the correct ballpark, and then go back
+to the creative settings to fine tune the vividness, saturation, sharpness, and
+so on. I've also been overlaying some 4k 35mm film grain textures over the top
+to give a beautiful film look.
 
 ------------------------
 
@@ -102,8 +102,10 @@ Whenever we get back up to Edinburgh, I make some pilgrimages to a few of my
 favourite coffee shops. Since we left Edinburgh almost ten years ago, at the
 time of writing, the coffee scene has burgeoned somewhat, and there's now at
 least a dozen really excellent coffee shops. The three that I always try to
-visit are Artisan Roast on Broughton Street, Brew Lab on South College Street,
-and Wellington on the corner of George Street and Hanover Street.
+visit are [Artisan Roast](https://www.artisanroast.co.uk/) on Broughton Street,
+[Brew Lab](http://www.brewlabcoffee.co.uk/) on South College Street, and
+[Wellington](https://www.tripadvisor.co.uk/Restaurant_Review-g186525-d2168219-Reviews-Wellington_Coffee-Edinburgh_Scotland.html) on the corner of George Street
+and Hanover Street.
 
 > "They (Artisan Roast) also roast all of their own beans and offer a really good weekly or monthly subscription"
 
@@ -118,12 +120,12 @@ which I've subscribed for the past year or so.
 
 ## The Botanics
 
-Along with Holyrood Park, the Botanics are such a vast, beautiful, peaceful
-spot right in the centre of Edinburgh, and it's impossible not to get drawn in
-by them. I think what I like most about it is the amount of, for want of a
-better word, forest. It's not just a bunch of ornamental gardens and
-glasshouses, but a stunning little woodland surrounded and dotted with
-ornamental gardens, glasshouses, ponds, and streams.
+Along with Holyrood Park, the [Botanics](http://www.rbge.org.uk/) are such a
+vast, beautiful, peaceful spot right in the centre of Edinburgh, and it's
+impossible not to get drawn in by them. I think what I like most about it is
+the amount of, for want of a better word, forest. It's not just a bunch of
+ornamental gardens and glasshouses, but a stunning little woodland surrounded
+and dotted with ornamental gardens, glasshouses, ponds, and streams.
 
 ![Botanics, daisy](/assets/botanics.jpg)
 

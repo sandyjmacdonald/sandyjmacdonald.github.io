@@ -3,7 +3,7 @@ layout: post
 title: Roberts R600 refurb
 date: 2017-02-17 22:00:00
 summary: Refurbishing a 50-year old Roberts R600 and adding a Pi Zero running Volumio.
-tags: ["raspberry pi","pimoroni","making"]
+tags: ["raspberry pi","pimoroni","making","refurb","electronics"]
 visible: 1
 ---
 

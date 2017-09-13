@@ -3,7 +3,7 @@ layout: post
 title: Visual notifications on the Raspberry Pi
 date: 2015-01-26 12:00:00
 summary: Build a visual notification system with Unicorn HAT and Skywriter.
-tags: ["raspberry pi","python","pimoroni","skywriter","unicorn hat","tutorial"]
+tags: ["raspberry pi","python","pimoroni","skywriter","unicorn hat","tutorial","electronics"]
 visible: 1
 ---
 

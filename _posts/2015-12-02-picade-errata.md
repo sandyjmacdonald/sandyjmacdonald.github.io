@@ -3,7 +3,7 @@ layout: post
 title: Picade errata
 date: 2015-12-02 08:00:00
 summary: Picade errata. Bits I missed the first time.
-tags: ["picade","games","pimoroni","raspberry pi"]
+tags: ["picade","games","pimoroni","raspberry pi","electronics"]
 visible: 1
 ---
 

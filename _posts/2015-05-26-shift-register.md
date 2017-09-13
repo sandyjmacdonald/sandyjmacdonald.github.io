@@ -3,7 +3,7 @@ layout: post
 title: 8-bit shift registers and Explorer HAT
 date: 2015-06-25 12:00:00
 summary: Control eight LEDs from just three pins with an 8-bit shift register.
-tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","shift register","tutorial"]
+tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","shift register","tutorial","electronics"]
 visible: 1
 ---
 

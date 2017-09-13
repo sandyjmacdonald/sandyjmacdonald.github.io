@@ -3,7 +3,7 @@ layout: post
 title: PIN entry system
 date: 2015-04-30 12:00:00
 summary: Create a PIN entry system with Explorer HAT Pro and the parts kit.
-tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","tutorial"]
+tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","tutorial","electronics"]
 visible: 1
 ---
 

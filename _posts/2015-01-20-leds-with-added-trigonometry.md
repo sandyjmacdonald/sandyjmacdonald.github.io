@@ -3,7 +3,7 @@ layout: post
 title: LEDs with added trigonometry
 date: 2015-01-20 12:00:00
 summary: Create some pretty patterns with Unicorn HAT and trigonometric functions.
-tags: ["raspberry pi","python","pimoroni","unicorn hat","tutorial"]
+tags: ["raspberry pi","python","pimoroni","unicorn hat","tutorial","electronics"]
 visible: 1
 ---
 

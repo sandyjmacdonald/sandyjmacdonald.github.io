@@ -3,7 +3,7 @@ layout: post
 title: The Explorer HAT Pro parts kit
 date: 2015-05-26 12:00:00
 summary: Everything you need to get started with your Explorer HAT Pro.
-tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","parts kit"]
+tags: ["raspberry pi","python","pimoroni","explorer hat","explorer hat pro","parts kit","electronics"]
 visible: 1
 ---
 

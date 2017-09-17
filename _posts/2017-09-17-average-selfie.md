@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Average selfie
-date: 2017-09-17 20:00:00
+date: 2017-09-17 19:00:00
 summary: Averaging 130 selfies taken over 18 months into an "average selfie".
 tags: ["photography","python"]
 visible: 1

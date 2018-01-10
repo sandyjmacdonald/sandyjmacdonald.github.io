@@ -48,33 +48,33 @@ listofimages = [[] for x in range(len(images))]
 i = 0
 
 for image in images:
-	im = Image.open(image)
-	w, h = im.size
-	for wpix in range(w):
-		for hpix in range(h):
-			r, g, b = im.getpixel((wpix, hpix))
-			listofimages[i].append((r, g, b))
-	i += 1
+    im = Image.open(image)
+    w, h = im.size
+    for wpix in range(w):
+        for hpix in range(h):
+            r, g, b = im.getpixel((wpix, hpix))
+            listofimages[i].append((r, g, b))
+    i += 1
 
 averageimage = []
 
 for pixel in range(im.size[0] * im.size[1]):
-	rvals = [image[pixel][0] for image in listofimages]
-	r = sum(rvals) / len(rvals)
-	gvals = [image[pixel][1] for image in listofimages]
-	g = sum(gvals) / len(gvals)
-	bvals = [image[pixel][2] for image in listofimages]
-	b = sum(bvals) / len(bvals)
-	averageimage.append((r, g, b))
+    rvals = [image[pixel][0] for image in listofimages]
+    r = sum(rvals) / len(rvals)
+    gvals = [image[pixel][1] for image in listofimages]
+    g = sum(gvals) / len(gvals)
+    bvals = [image[pixel][2] for image in listofimages]
+    b = sum(bvals) / len(bvals)
+    averageimage.append((r, g, b))
 
 newimage = Image.new('RGB', (im.size))
 
 j = 0
 
 for wpix in range(w):
-	for hpix in range(h):
-		newimage.putpixel((wpix, hpix), (averageimage[j]))
-		j += 1
+    for hpix in range(h):
+        newimage.putpixel((wpix, hpix), (averageimage[j]))
+        j += 1
 
 newimage.save('average.jpg', 'JPEG')
 ```

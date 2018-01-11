@@ -140,7 +140,7 @@ shadows with it.
 
 For that reason, I tend to **underexpose by between a half and a whole stop**,
 as it's much easier to pull out detail from underexposed areas than from
-overexposed. I almost always shot in aperture mode, so that I can control the
+overexposed. I almost always shoot in aperture mode, so that I can control the
 amount of depth of field in the image. For square-on images like this, I tend
 to shoot with more depth of field and keep everything in the image sharp; this
 shot was taken at *f*8.0 and ISO 100.

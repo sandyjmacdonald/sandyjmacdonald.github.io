@@ -58,5 +58,3 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-paginate
-plugins:
-  - jekyll-feed

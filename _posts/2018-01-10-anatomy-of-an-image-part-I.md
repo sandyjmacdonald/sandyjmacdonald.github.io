@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anatomy of an image, part I
-date: 2018-01-10 21:00:00
+date: 2018-01-11 07:00:00
 summary: Breaking down the process of creating one of my favourite photos.
 tags: ["photography","gh5","pimoroni"]
 visible: 1

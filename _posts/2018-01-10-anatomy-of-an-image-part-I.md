@@ -53,6 +53,11 @@ and props to complement the main product, but not in a setup that you'd have on
 your desk necessarily. Other times, you'll want specifically to build a shot
 that's completely true to life.
 
+I'd encourage you to be inspired by photos that other people take; build up a
+collection of images that you like, either on Pinterest boards, or a physical
+scrapbook or mood board with photos from magazines. It's important to develop
+your own style and technique though.
+
 ## Planning out the shot
 
 In this case, I had a basic idea of the way that I was going to structure the
@@ -114,7 +119,7 @@ at how the image extends outside the composition that you see.
 
 In terms of props, **having a range of nice objects that you can use in photos**
 is useful. As I said earlier, I love stationery, so you'll often see items of
-stationery cropping up in my images. The objects I picked here were picked to
+stationery cropping up in my images. The objects I picked here were chosen to
 fit with the red, black, and white colour scheme of Inky pHAT - the red Pibow
 case, ink, washi tape, and ruler, the black pen and power supply lead, and the
 white grid paper (well, the ink was blue, but more on that later...)

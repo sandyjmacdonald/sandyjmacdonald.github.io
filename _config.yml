@@ -52,9 +52,9 @@ highlighter: rouge
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink: pretty
-paginate: 5
+paginate: 6
 sass:
   compressed: true
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate

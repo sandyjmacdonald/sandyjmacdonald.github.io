@@ -3,7 +3,7 @@ layout: post
 title: Story of the shot, part I
 date: 2018-01-11 07:00:00
 summary: Breaking down the process of creating one of my favourite photos.
-tags: ["photography","gh5","pimoroni"]
+tags: ["photography","gh5","story of the shot","pimoroni"]
 visible: 1
 ---
 

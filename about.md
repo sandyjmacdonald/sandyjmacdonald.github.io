@@ -23,7 +23,7 @@ pathogens.
 
 In my spare time, I enjoy tinkering with electronics, especially the Raspberry
 Pi, photography, and reading graphic novels. Useless and eclectic skills
-involve balloon modelling, juggling, throwing pots, and silversmithing.
+include balloon modelling, juggling, throwing pots, and silversmithing.
 
 ----------
 

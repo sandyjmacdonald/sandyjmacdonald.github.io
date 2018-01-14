@@ -14,7 +14,7 @@ google_analytics: UA-58080101-1
 animated: false
 show_related_posts: true
 show_post_footers: false
-show_social_icons: true
+show_social_icons: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Story of the shot, part II
-date: 2018-01-13 16:00:00
+date: 2018-01-14 18:00:00
 summary: In this part, I break down an architectural shot.
 tags: ["photography","gh5","story of the shot","edinburgh"]
 visible: 1

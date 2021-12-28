@@ -59,7 +59,7 @@ install.packages(c("tidyverse", "zoo", "xts", "influxdbr", "wesanderson"))
 ```
 
 This will install the libraries we need to query the InfluxDB database, analyse 
-data, and then plot it. The tidyverse library is a collection of a bunch of 
+the data, and then plot it. The tidyverse library is a collection of a bunch of 
 great libraries, including dplyr for manipulating tabular data and ggplot for 
 making amazing looking plots. xts and zoo are libraries for working with time 
 series data, influxdbr is the library for connecting with InfluxDB databases, 
@@ -124,7 +124,7 @@ result = influx_select(con=con,
 
 Next, we'll store the result in a `df` variable and do some cleaning up of the 
 time stamps that InfluxDB returned with dplyr's `mutate()` function. The 
-`ymd_hms()` function turns the time stamp string in a proper datetime that we 
+`ymd_hms()` function turns the time stamp string into a proper datetime that we 
 can use for grouping and summarising the data later. We're also creating new 
 columns in our dataframe with the hour, minute, minute in the day, and day in 
 the year.
@@ -153,7 +153,8 @@ Most times you use `group_by()`, you'll follow it up directly with `summarise()`
 to get the sum, the minimum or maximum, mean, or so on, of your grouped data. 
 Here, we're getting the mean of the temperature and humidity for each minute.
 
-We're then using `filter()` to filter out some outliers in the data.
+We're then using `filter()` to filter out some outliers in the data. Your data 
+may not have any, or they may be different, so change these lines as necessary.
 
 Because we're plotting the humidity data on a second y-axis and ggplot doesn't 
 support having two y-axes with different scales, we use `mutate()` to divide all 
@@ -162,7 +163,7 @@ and our humidity values are in the 50-100 range, this should bring the humidity
 values down to approximately the same range.
 
 We'll also create an `hour` column that we'll use for our x-axis scale, since 
-hours of the day are a little easier to grok than minute of the day!
+hours of the day are a little easier to suss out than minute of the day!
 
 Last of all, we need to pivot the data frame so that all of the variables and 
 values are together in single columns rather than separate ones, using the 
@@ -182,7 +183,7 @@ summary = df %>%
                values_to = "val")
 ```
 
-We've finally made it to the point where we can plot our data, using ggplot. I 
+Finally, we've made it to the point where we can plot our data, using ggplot. I 
 won't go into all of the details of what's happening here, as ggplot is a 
 dark art that combines luck, perserverance, and your ability to search Stack 
 Overflow threads for the correct way to do things, but I'll cover the main 
@@ -192,7 +193,7 @@ We're using `geom_smooth()` which fits a line to our data. There are various
 options for which method to use for fitting the curve but, in this case, the 
 default works well. The `span` determines how smooth or jagged the fitted line 
 becomes. We're plotting time (`hour`) on the x-axis, the values (`val`) on the 
-y-axis, and coloring the line (and the points later) by which variable (`var`) 
+y-axis, and colouring the line (and the points later) by which variable (`var`) 
 it is, i.e. temperature or humidity.
 
 `geom_point()` does exactly what you'd expect - draws points for all of our 
@@ -282,7 +283,7 @@ September.
 
 ## Light level data
 
-As well temperature, pressure, and humidity, the Enviro+ also senses ambient 
+As well as temperature, pressure, and humidity, the Enviro+ also senses ambient 
 light level. Let's have a look at some of the light level data that I've collected. 
 
 We'll look first at another horizon plot that shows mean light level through the 
@@ -308,7 +309,7 @@ sunrise/sunset thresholds and hours of daylight.
 ## Particulate matter data
 
 The particulate matter (PM) sensor attached to the Enviro+ measures particulates 
-in the air and distinguish their size to some extent, with readings for fine 
+in the air and distinguishes their size to some extent, with readings for fine 
 particulates (PM2.5) and also larger ones (PM10). Because of the way the sensor 
 works, the PM10 reading will also include the fine particulates, so the PM10 
 reading is always somewhat higher than the PM2.5 reading.
@@ -318,7 +319,7 @@ there was any pattern to the air quality through the day. To look at this, I'm
 plotting the mean PM10 level by hour of day. If there was no trend, I guess we'd 
 expect to see the points scattered almost randomly. Instead, what we see is that 
 the PM10 level starts rising at around 3pm, peaking between 8pm and 11pm, then 
-falling through the night and morning, with a bump between 7 and 8am.
+falls through the night and morning, with a bump between 7 and 8am.
 
 Particulate matter levels are affected in a complex way by other environmental 
 factors like humidity, rainfall, temperature, wind speed and direction, as well 
@@ -389,4 +390,8 @@ and a negative correlation between light level and humidity. Temperature tends t
 lag light level by a few hours, so this is probably the reason for the correlation 
 coefficients not being stronger here. I expect if we shifted the light data forward 
 by about 6 or 8 hours, we'd see a much stronger correlation with both temperature 
-and humidity
+and humidity.
+
+<hr>
+
+That's all for now. I hope you found this series of posts useful.

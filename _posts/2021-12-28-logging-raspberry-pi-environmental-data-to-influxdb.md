@@ -89,7 +89,7 @@ hidden menu, where you can configure some additional settings. Select the
 "Set hostname" checkbox and then call it something like `enviro.local`, so you 
 can find it easily on your network. Also check the "Enable SSH" checkbox and 
 set the password to something memorable and secure. Scroll down a little and 
-then select "Configure wifi" and enter your Wi-Fi network's SSID and password. 
+then select "Configure wifi" and enter your wi-fi network's SSID and password. 
 Doing all of this will make it really easy to install everything headlessly 
 once you've burnt the image to the micro SD card and booted up your Pi.
 
@@ -107,9 +107,9 @@ light up and blink to show that your Pi is booting up.
 
 To read the data from the BME280 temperature, humidity, and pressure sensor and 
 the LTR559 light sensor on the Enviro board, we'll need to install Pimoroni's 
-Enviro plus library which installs the required drivers for the sensors. We'll 
-also need the InfluxDB Python library which will allow us to send the values 
-read from the sensors straight to our InfluxDB database.
+Enviro plus Python library which installs the required drivers for the sensors. 
+We'll also need the InfluxDB Python library which will allow us to send the 
+values read from the sensors straight to our InfluxDB database.
 
 Open a terminal on your computer and connect via SSH to your Raspberry Pi Zero W, 
 by typing `ssh pi@enviro.local` or `ssh pi@192.168.0.101`, replacing the hostname 

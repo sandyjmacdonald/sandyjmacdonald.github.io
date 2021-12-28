@@ -18,7 +18,7 @@ with Raspberry Pis and Pimoroni environmental boards:
 
 For more than a year now, I've been logging environmental data from around my 
 home, indoor and out, with some Pimoroni Enviro boards and Raspberry Pi Zero Ws. 
-I've logged more than three million data points now: temperature, pressure, and 
+I've logged more than three million data points now: temperature, pressure, 
 humidity, light level, air quality, and more recently rainfall and wind 
 measurements. The combination of an InfluxDB database and Grafana frontend 
 allows me to see all the data instantly from anywhere.
@@ -29,10 +29,9 @@ Two Raspberry Pi Zero Ws with Pimoroni Enviro boards collect temperature,
 humidity, pressure, and light level indoors in our living room and bedroom. 
 Another Raspberry Pi Zero W with a Pimoroni Enviro+ board and PMS5003 
 particulate matter sensor outside our front door collect the same four 
-variables plus PM2.5 and PM10 particulate (air quality) readings (and three 
-different gas readings; more on that later...) A final Raspberry Pi Zero W 
-with Pimoroni Weather HAT collects additional rainfall measurements, wind speed,
-and wind direction.
+variables plus PM2.5 and PM10 particulate (air quality) readings. A final 
+Raspberry Pi Zero W with Pimoroni Weather HAT collects additional rainfall 
+measurements, wind speed, and wind direction.
 
 A Raspberry Pi 4 runs the InfluxDB database and Grafana frontend and also runs 
 nightly backups that get sent to a folder in my Dropbox.
@@ -82,7 +81,7 @@ hidden menu, where you can configure some additional settings. Select the
 "Set hostname" checkbox and then call it something like `influxdb.local`, so you 
 can find it easily on your network. Also check the "Enable SSH" checkbox and 
 set the password to something memorable and secure. Scroll down a little and 
-then select "Configure wifi" and enter your Wi-Fi network's SSID and password. 
+then select "Configure wifi" and enter your wi-fi network's SSID and password. 
 Doing all of this will make it really easy to install everything headlessly 
 once you've burnt the image to the micro SD card and booted up your Pi.
 
@@ -185,9 +184,9 @@ sudo systemctl enable grafana-server.service
 
 Your Grafana server should now be running, and accessible via a web browser on 
 your computer. Type `http://192.168.0.100:3000` to log in to Grafana, making 
-sure to use whatever the IP address of your Raspberry Pi is. Log in with 
-username "admin" and password "admin" and then change the password to something 
-new when prompted.
+sure to use whatever the IP address (or hostname) of your Raspberry Pi is. Log 
+in with username "admin" and password "admin" and then change the password to 
+something new when prompted.
 
 ![Grafana, login page](/assets/grafana-1.png)
 

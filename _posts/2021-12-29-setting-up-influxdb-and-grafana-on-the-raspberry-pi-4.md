@@ -11,8 +11,8 @@ This is the first in a series of posts about collecting home environmental data
 with Raspberry Pis and Pimoroni environmental boards:
 
 1. **Setting up InfluxDB and Grafana on the Raspberry Pi 4**
-2. [Logging Raspberry Pi environmental data to InfluxDB](/2021/12/28/logging-raspberry-pi-environmental-data-to-influxdb/)
-3. [Analysing home environmental data with InfluxDB and R](/2021/12/28/analysing-home-environmental-data-with-influxdb-and-r/)
+2. [Logging Raspberry Pi environmental data to InfluxDB](/2021/12/29/logging-raspberry-pi-environmental-data-to-influxdb/)
+3. [Analysing home environmental data with InfluxDB and R](/2021/12/29/analysing-home-environmental-data-with-influxdb-and-r/)
 
 ## Background
 

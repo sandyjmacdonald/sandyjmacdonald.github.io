@@ -10,9 +10,9 @@ visible: 1
 This is the second guide in a series of three, related to collecting home 
 environmental data:
 
-1. [Setting up InfluxDB and Grafana on the Raspberry Pi 4](/2021/12/28/setting-up-influxdb-and-grafana-on-the-raspberry-pi-4/)
+1. [Setting up InfluxDB and Grafana on the Raspberry Pi 4](/2021/12/29/setting-up-influxdb-and-grafana-on-the-raspberry-pi-4/)
 2. **Logging Raspberry Pi environmental data to InfluxDB**
-3. [Analysing home environmental data with InfluxDB and R](/2021/12/28/analysing-home-environmental-data-with-influxdb-and-r/)
+3. [Analysing home environmental data with InfluxDB and R](/2021/12/29/analysing-home-environmental-data-with-influxdb-and-r/)
 
 ## Background
 

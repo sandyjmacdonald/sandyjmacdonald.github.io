@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysing home environmental data with InfluxDB and R
-date: 2021-12-28 15:02:00
+date: 2021-12-29 08:02:00
 summary: Learn how to read data straight from your InfluxDB database into R, and see some of the analysis that I've done of my data.
 tags: ["data analysis", "grafana", "influxbdb", "pimoroni", "raspberry pi"]
 visible: 1

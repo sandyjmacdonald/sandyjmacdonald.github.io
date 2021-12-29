@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logging Raspberry Pi environmental data to InfluxDB
-date: 2021-12-28 15:01:00
+date: 2021-12-29 08:01:00
 summary: Learn how to send environmental data from the Pimoroni Enviro board to an InfluxDB database on Raspberry Pi.
 tags: ["data analysis", "grafana", "influxbdb", "pimoroni", "raspberry pi"]
 visible: 1

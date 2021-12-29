@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up InfluxDB and Grafana on the Raspberry Pi 4
-date: 2021-12-28 15:00:00
+date: 2021-12-29 08:00:00
 summary: How to set up an environmental data dashboard on a Raspberry Pi.
 tags: ["data analysis", "grafana", "influxbdb", "pimoroni", "raspberry pi"]
 visible: 1

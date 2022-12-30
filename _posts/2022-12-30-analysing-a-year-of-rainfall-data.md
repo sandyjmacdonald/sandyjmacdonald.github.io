@@ -27,7 +27,7 @@ I'll try to present summaries of the data, as well as trying to answer specific 
 
 The data that I'm analysing here are more than 100,000 values collected at 5 minute intervals from the tipping bucket rain gauge on the weather station. This has a small seesaw-like arm inside it, with small "buckets" on either side that allows one side to fill up and press a switch below it, then it tips that water out and starts filling the other side, etc. The capacity of the buckets is 0.28mm, so that's the minimum amount that can be measured at any one time and also the resolution of the data.
 
-All of the analysis here has been done in R, using the Tidyverse suite of libraries. I'll link to a GitHub repository at the end, with an Rmarkdown document with all of the analysis, and a .csv file with the raw data should you wish to play with it yourself.
+All of the analysis here has been done in R, using the Tidyverse suite of libraries. I'll link to a GitHub repository at the end, with an R Markdown document with all of the analysis, and a .csv file with the raw data should you wish to play with it yourself.
 
 ## October and February were the wettest months
 
@@ -157,8 +157,8 @@ We can see exactly when the downpour happened, between 10 and 11am, when the cum
 
 ![Plot of the heaviest downpour of 2022](/assets/2022-heaviest-downpour.jpg)
 
-## Rmarkdown files and raw data
+## R Markdown files and raw data
 
-If you'd like see how I analysed the data, produced the plots, and so on, I've created an Rmarkdown file with it all in, as well as a .csv file with the raw rainfall data if you'd like to play around with it yourself.
+If you'd like see how I analysed the data, produced the plots, and so on, I've created an R Markdown file with it all in, as well as a .csv file with the raw rainfall data if you'd like to play around with it yourself.
 
-[You can find the Rmarkdown files and raw data here.](https://github.com/sandyjmacdonald/2022-rainfall-data-analysis)
+[You can find the R Markdown files and raw data here.](https://github.com/sandyjmacdonald/2022-rainfall-data-analysis)

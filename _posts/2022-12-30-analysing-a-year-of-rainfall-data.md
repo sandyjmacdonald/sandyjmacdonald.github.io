@@ -120,7 +120,7 @@ By averaging the rainfall at each timepoint through the day, across the whole ye
 
 It's pretty noisy data, but it looks like late morning was the wettest part of the day, on average, with 10:05am being the wettest time of all. The general trend seems to be that it was drier in the early morning, increasing through the morning towards the middle of the day, then tailing off through the afternoon.
 
-I think this makes sense, since once the sun rises in the morning the air will heat up and be less able to hold moisture, and hence be more likely to rain.
+I think this makes sense, since once the sun rises in the morning the air will heat up, hold more moisture, and hence be more likely to rain.
 
 *(some outliers have been removed around the 10am peak to better see the patterns in the rest of the data)*
 

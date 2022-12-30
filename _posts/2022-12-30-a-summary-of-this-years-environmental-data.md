@@ -75,10 +75,10 @@ This was a good opportunity to plot the light level and air temperature together
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Plotting light level against temp. for yesterday, you can see that the sun starts heating the air up quickly but the temp. takes a little longer to peak. The light level tails off earlier than expected because the weather station is at the east-facing side of the house. <a href="https://t.co/aFe3wsw9dd">pic.twitter.com/aFe3wsw9dd</a></p>&mdash; Sandy Macdonald (@sandyjmacdonald) <a href="https://twitter.com/sandyjmacdonald/status/1558387808439508997?ref_src=twsrc%5Etfw">August 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## Bonfire night
+## Bonfire Night
 
 Ah, the annual tradition of setting off explosives and spewing huge amounts of pollutants into the air in the name of... er... celebrating us stopping someone setting off explosives 417 years ago. Yeah, I don't get it.
 
-In the screenshot from my Grafana dashboard below, you can see the particulate matter levels rise stratospherically on Bonfire Night. The blue and red lines are the WHO recommended limits for PM2.5 and PM10, 10 and 20 µg/m³, respectively. You can see the levels reached around 200 µg/m³!
+In the screenshot from my Grafana dashboard below, you can see the particulate matter levels rise stratospherically on Bonfire Night. The blue and red lines are the WHO recommended limits for PM2.5 and PM10, 10 and 20 µg/m³, respectively. You can see the levels reached around 200 µg/m³! Lunacy.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yeesh! <a href="https://t.co/JnHxPcutjT">pic.twitter.com/JnHxPcutjT</a></p>&mdash; Sandy Macdonald (@sandyjmacdonald) <a href="https://twitter.com/sandyjmacdonald/status/1589023917259341824?ref_src=twsrc%5Etfw">November 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

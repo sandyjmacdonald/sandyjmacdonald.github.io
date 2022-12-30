@@ -4,10 +4,10 @@
 */
 
 table {
-  width: 100%;
   max-width: 100%;
+  white-space: nowrap;
   margin-bottom: 1.5;
-  font-size: 1.125rem;
+  font-size: 0.75rem;
   // Cells
   > thead,
   > tbody,
@@ -15,8 +15,8 @@ table {
     > tr {
       > th,
       > td {
-        padding: 12px;
-        line-height: 1.2;
+        padding: 8px;
+        line-height: 1;
         vertical-align: top;
         border-top: 1px solid #333;
       }

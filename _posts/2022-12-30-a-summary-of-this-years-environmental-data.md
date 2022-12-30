@@ -2,7 +2,7 @@
 layout: post
 title: A summary of this year's environmental data
 date: 2022-12-30 19:20:00
-summary: Summarising some tidbits of analysis of my home environmental data from this past year.
+summary: Summarising some tidbits of analysis of my home environmental data from this past year, in the medium of tweets.
 tags: ["data analysis", "grafana", "influxbdb", "pimoroni", "raspberry pi"]
 visible: 1
 ---

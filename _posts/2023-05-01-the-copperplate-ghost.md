@@ -5,6 +5,7 @@ date: 2023-05-01 09:00:00
 summary: This is the story of my York Ghost Merchants Copperplate Ghost.
 tags: []
 visible: 1
+image: /assets/millie-1.jpg
 ---
 
 <p><img src="/assets/millie-1.jpg" alt="" style="width: 100%; max-width: 600px; display: block; margin-left: auto; margin-right: auto;"></p>

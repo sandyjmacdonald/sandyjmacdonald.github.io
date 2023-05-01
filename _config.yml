@@ -58,3 +58,4 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-gensocial
